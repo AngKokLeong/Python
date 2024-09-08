@@ -13,7 +13,7 @@ for row_index in range(number_of_rows):
     # define the row and then column
     new_row: list = []
     for column_index in range(number_of_columns):
-        random_number: int = numpy.random.default_rng().integers(100, 200,size=1, endpoint=True)
+        random_number: int = numpy.random.default_rng().integers(100, 200, endpoint=True)
         new_row.append(random_number)
     
     matrix.append(new_row)
