@@ -8,4 +8,8 @@ national_flower_dict: dict = {
     "Singapore": "Vanda Miss Joaquim"
 }
 
-print(pandas.Series(national_flower_dict.values(), national_flower_dict.keys()))
+
+national_flower_pandas_series = pandas.Series(national_flower_dict.values(), national_flower_dict.keys())
+
+print(national_flower_pandas_series)
+print(type(national_flower_pandas_series))
