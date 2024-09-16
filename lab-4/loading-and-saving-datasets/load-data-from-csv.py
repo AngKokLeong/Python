@@ -12,3 +12,4 @@ print(df_csv.dtypes)
 
 # The GEOID and State column are object datatype
 # all other columns are int64
+
