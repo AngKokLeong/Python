@@ -1,0 +1,4 @@
+red,green,yellow,blue
+apple,orange,pear,durian
+2017-08-12,2017-09-05,2017-10-18,2017-11-23
+95,67,88,70
